@@ -73,9 +73,3 @@ The owner(s) will review the code and either accept the merge or request changes
 ## Collaborators
 
 Please see `COLLAB.md`
-
-
-## References
-
-[Git](https://en.wikipedia.org/wiki/Git)
-[Github]()
