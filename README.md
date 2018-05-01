@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/GregHilston/github-tutorial-calculator.svg?style=svg)](https://circleci.com/gh/GregHilston/github-tutorial-calculator)
 
+*Note: This repository is used for teaching purposes*
+
 This repository is to act as an example open source project to help individuals become familiar with `git` and `Github`.
 
 The two important files are:
@@ -66,7 +68,11 @@ Pull requests are a request one makes to have an owner of a repository to pull t
 2. To submit a fix, improvement or any other enhancement to the project
 
 The owner(s) will review the code and either accept the merge or request changes.
-fo
+
+
+## Collaborators
+
+Please see `COLLAB.md`
 
 
 ## References
