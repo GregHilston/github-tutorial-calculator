@@ -31,11 +31,38 @@ Git is free and open source software distributed under the terms of the GNU Gene
 
 Github is a web based remote hosting service for Git. Essentially, Github is a for profit company that provides a service which provides many free tier tools for developers and enterprise level plans for businesses.
 
-When working on a project, you should be using Git 
+When working on a project, you should be using Git
 
 Its important to note there are many competitors to Github, like Gitlab, which are similar. Its good to lookup the differences between sites like these. Often their free tiers differ considerably.
 
+
+## Forking
+
+Forking a repository is when you take the current state of a Github repository and copy it to a repository on your own account. You would do this for a few reasons:
+
+1. To use someone's repository as a starting point and take the project in a different direction
+2. Submit a Pull Request back to the original project
+
+
+## Pull Requests
+
+Pull requests are a request one makes to have an owner of a repository to pull their work into the project. This is used a few ways:
+
+1. To peer review colleagues' work
+2. To submit a fix, improvement or any other enhancement to the project
+
+The owner(s) will review the code and either accept the merge or request changes.
+
+
 ## Github Issues
+
+
+
+
+## Further Reading
+
+[Issues](https://guides.github.com/features/issues/)
+
 
 ## References
 
