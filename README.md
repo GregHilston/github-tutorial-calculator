@@ -1,5 +1,7 @@
 # Github Tutorial Calculator
 
+[![CircleCI](https://circleci.com/gh/GregHilston/github-tutorial-calculator.svg?style=svg)](https://circleci.com/gh/GregHilston/github-tutorial-calculator)
+
 This repository is to act as an example open source project to help individuals become familiar with `git` and `Github`.
 
 The two important files are:
