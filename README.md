@@ -36,6 +36,18 @@ When working on a project, you should be using Git
 Its important to note there are many competitors to Github, like Gitlab, which are similar. Its good to lookup the differences between sites like these. Often their free tiers differ considerably.
 
 
+## Github Issues
+
+Github issues are ways to keep track of:
+
+* bugs
+* feature requests
+* enhancement requests
+* any other custom labels you'd like to add
+
+Issues can be made by not only the repository owner(s) but also the public. This makes it useful to help organize a public free and open source project.
+
+
 ## Forking
 
 Forking a repository is when you take the current state of a Github repository and copy it to a repository on your own account. You would do this for a few reasons:
@@ -52,16 +64,7 @@ Pull requests are a request one makes to have an owner of a repository to pull t
 2. To submit a fix, improvement or any other enhancement to the project
 
 The owner(s) will review the code and either accept the merge or request changes.
-
-
-## Github Issues
-
-
-
-
-## Further Reading
-
-[Issues](https://guides.github.com/features/issues/)
+fo
 
 
 ## References
