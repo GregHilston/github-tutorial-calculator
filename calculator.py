@@ -9,7 +9,7 @@ class Calculator:
         return x + y + 5
 
     def subtract(self, x, y):
-        """Subtracts x from y and returns the difference
+        """Subtracts y from x and returns the difference
         """
 
         return y - x
