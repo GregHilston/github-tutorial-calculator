@@ -29,7 +29,7 @@ class Calculator:
         """Divides x by y and returns the quotient.
         Note, that this uses Integer division.
         """
-        return (x /y)
+        return x//y
 
     #make sure to import math as math
     def log(self,x,y):
