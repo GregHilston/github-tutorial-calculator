@@ -26,11 +26,9 @@ class Calculator:
         """Divides x by y and returns the quotient.
         Note, that this uses Integer division.
         """
-
         return (x /y)
     
     def square(self, x):
         """ Returns the square of x.
         """
         return ( x * x)
-        
