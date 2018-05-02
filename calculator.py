@@ -6,23 +6,29 @@ class Calculator:
         """Adds x and y together and returns the sum
         """
 
-        return x + y + 5
+        return x + y 
 
     def subtract(self, x, y):
         """Subtracts y from x and returns the difference
         """
 
-        return y - x
+        return x - y
 
     def multiply(self, x, y):
         """Multiples x by y and returns the product
         """
 
-        return (x * y)
+
+        return (x * y) 
+
 
     def divide(self, x, y):
         """Divides x by y and returns the quotient.
         Note, that this uses Integer division.
         """
-
-        return (x / y)
+        return (x /y)
+    
+    def square(self, x):
+        """ Returns the square of x.
+        """
+        return ( x * x)

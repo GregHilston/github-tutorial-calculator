@@ -14,6 +14,7 @@ The two important files are:
 * subtraction
 * multiplication
 * division
+* square
 
 This script isn't executable on its own, as it simply defines the above four methods.
 
