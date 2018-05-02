@@ -1,5 +1,6 @@
 import unittest
 from calculator import Calculator
+import math
 
 class TestCalculator(unittest.TestCase):
     def setUp(self):
@@ -88,6 +89,24 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calculator.divide(-1, 1), -1)
         self.assertRaises(ZeroDivisionError, self.calculator.divide, -1, 0)
         self.assertEqual(self.calculator.divide(-1, -1), 1)
+        
+    def test_square(self):
+        """Tests the square function for every combination of 1, 0 and -1.
+        May be redundant but checks if communitive property is respected.
+        """
+
+        # Where x = 1, 0, -1
+        self.assertEqual(self.calculator.square(1), 1)
+        self.assertEqual(self.calculator.square(0), 0)
+        self.assertEqual(self.calculator.square(-1), 1)
+
+       
+
+    def test_log(self):
+
+        self.assertEqual(self.calculator.log(2,10),0.30103)
+        self.assertEqual(self.calculator.log(10,10), 1)
+        self.assertEqual(self.calculator.log(1,math.exp(1)), 0)
 
 if __name__ == '__main__':
     unittest.main()
