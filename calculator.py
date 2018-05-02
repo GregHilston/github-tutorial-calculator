@@ -26,3 +26,10 @@ class Calculator:
         """
 
         raise NotImplementedError
+        
+    def tan(x):
+        """Returns the tangent value of x
+        """
+        import math
+        
+        return math.tan(x)
