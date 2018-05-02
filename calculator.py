@@ -12,7 +12,7 @@ class Calculator:
         """Subtracts y from x and returns the difference
         """
 
-        return y - x
+        return x - y
 
     def multiply(self, x, y):
         """Multiples x by y and returns the product
