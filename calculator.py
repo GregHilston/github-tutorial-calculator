@@ -27,7 +27,8 @@ class Calculator:
 
         return (x /y)
     
-    def square(self, x, y):
-        """ Comment
+    def square(self, x):
+        """ Returns the square of x.
         """
+        return ( x * x)
         
