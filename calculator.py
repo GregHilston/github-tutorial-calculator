@@ -25,4 +25,4 @@ class Calculator:
         Note, that this uses Integer division.
         """
 
-        raise NotImplementedError
+        return (x / y)
