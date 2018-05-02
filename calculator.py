@@ -1,3 +1,6 @@
+import math
+
+
 class Calculator:
     """A simple Calculator class used to demonstrate Git and Github features
     """
@@ -26,3 +29,7 @@ class Calculator:
         """
 
         raise NotImplementedError
+
+#make sure to import math as math
+    def log(self,x,y):
+        return math.log(x,y)
