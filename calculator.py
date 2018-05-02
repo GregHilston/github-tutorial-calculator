@@ -31,6 +31,12 @@ class Calculator:
         """
         return x//y
 
+        
+    def tan(x):
+        """Returns the tangent value of x
+        """        
+        return math.tan(x)
+
     #make sure to import math as math
     def log(self,x,y):
         return math.log(x,y)

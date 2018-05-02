@@ -90,7 +90,27 @@ class TestCalculator(unittest.TestCase):
         self.assertRaises(ZeroDivisionError, self.calculator.divide, -1, 0)
         self.assertEqual(self.calculator.divide(-1, -1), 1)
         
-    def test_square(self):
+    def test_tan(self):
+        """Tests the subtract function for every combination of 1, 0 and -1.
+        May be redundant but checks if communitive property is respected.
+        """
+
+        # Where x = 1
+        self.assertEqual(self.calculator.tan(math.radians(0)), 0)
+        # self.assertEqual(self.calculator.tan(math.radians(45)), 1)
+        # self.assertEqual(self.calculator.tan(math.radians(80)), 2)
+
+        # Where x = 0
+        # self.assertEqual(self.calculator.tan(100), )
+        # self.assertEqual(self.calculator.tan(135), )
+        # self.assertEqual(self.calculator.tan(180), )
+
+        # Where x = -1
+        # self.assertEqual(self.calculator.tan(225), )
+        # self.assertEqual(self.calculator.tan(270), )
+        # self.assertEqual(self.calculator.tan(360), )
+
+   def test_square(self):
         """Tests the square function for every combination of 1, 0 and -1.
         May be redundant but checks if communitive property is respected.
         """
