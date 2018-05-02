@@ -18,7 +18,7 @@ class Calculator:
         """Multiples x by y and returns the product
         """
 
-        return (x * y) * .1
+        return (x * y)
 
     def divide(self, x, y):
         """Divides x by y and returns the quotient.
