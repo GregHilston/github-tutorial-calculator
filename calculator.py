@@ -1,3 +1,6 @@
+import math
+
+
 class Calculator:
     """A simple Calculator class used to demonstrate Git and Github features
     """
@@ -27,6 +30,10 @@ class Calculator:
         Note, that this uses Integer division.
         """
         return (x /y)
+
+    #make sure to import math as math
+    def log(self,x,y):
+        return math.log(x,y)
     
     def square(self, x):
         """ Returns the square of x.
