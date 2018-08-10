@@ -2,13 +2,16 @@
 
 [![CircleCI](https://circleci.com/gh/GregHilston/github-tutorial-calculator.svg?style=svg)](https://circleci.com/gh/GregHilston/github-tutorial-calculator)
 
-*Note: This repository is used for teaching purposes*
+*Note: This repository is used for teaching purposes. Focusing on different aspects, depending on if someone wants to learn to write Python code, write unit tests or use continuous integration.*
+
+
+## How To Use This Repository
 
 This repository is to act as an example open source project to help individuals become familiar with `git` and `Github`.
 
 The two important files are:
 
-`calculator.py` - This file acts as the code base that would exist for an open source project. In this tutorial, the code base is a simple calculator class written in Python3. The supported operations are:
+`calculator.py` - This file acts as the code base that would exist for an open source project. In this tutorial, the code base is a simple calculator class written in Python3. The beginning supported operations are:
 
 * addition
 * subtraction
@@ -16,11 +19,28 @@ The two important files are:
 * division
 * square
 
-This script isn't executable on its own, as it simply defines the above four methods.
+This script isn't executable on its own, as it simply defines the above methods.
 
 `test.py` - This file acts as the unit test that would exist for an open source project. In this tutorial, the unit tests have an example of passing (1, 1), (1, 0) and (1, -1) to each function listed above. To execute the test suite, run:
 
     $ python3 test.py
+
+
+### How To Participate
+
+If there is an active issue in the [issues tab](https://github.com/GregHilston/github-tutorial-calculator/issues), feel free to implement one! To do so, do the following:
+
+1. [Fork the repository](https://help.github.com/articles/fork-a-repo/)
+2. Write unit tests for your soon to be written feature, on your forked implementation
+3. Write your new feature, on your forked implementation
+4. [Submit a pull request back to my original repository](https://yangsu.github.io/pull-request-tutorial/)
+5. Wait till I review your tests and code. I'll either:
+  a. Deny the request and ask you to perform some changes
+  b. Accept the request, finishing off the process
+
+As always, feel free to reach out to me on [Twitter](https://twitter.com/GregHilston). Happy coding!
+
+_If you're experienced with writing unit tests, writing python and using continuous integration, feel free to submit for issues, encouraging others to participate in the learning activity!_
 
 
 ## Git
