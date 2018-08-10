@@ -46,4 +46,4 @@ class Calculator:
         """ Returns the square of x.
         """
 
-        return ( x * x)
+        return (x * x)
