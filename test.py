@@ -39,7 +39,7 @@ class TestCalculator(unittest.TestCase):
         # Where x = 0
         self.assertEqual(self.calculator.subtract(0, 1), -1)
         self.assertEqual(self.calculator.subtract(0, 0), 0)
-        self.assertEqual(self.calculator.subtract(0, -1), -1)
+        self.assertEqual(self.calculator.subtract(0, -1), 1)
 
         # Where x = -1
         self.assertEqual(self.calculator.subtract(-1, 1), -2)
