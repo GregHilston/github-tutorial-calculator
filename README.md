@@ -33,8 +33,9 @@ If there is an active issue in the [issues tab](https://github.com/GregHilston/g
 1. [Fork the repository](https://help.github.com/articles/fork-a-repo/)
 2. Write unit tests for your soon to be written feature, on your forked implementation
 3. Write your new feature, on your forked implementation
-4. [Submit a pull request back to my original repository](https://yangsu.github.io/pull-request-tutorial/)
-5. Wait till I review your tests and code. I'll either:
+4. Ensure your unit tests and all other unit tests pass by running them with `$ python3 test.py`
+5. [Submit a pull request back to my original repository](https://yangsu.github.io/pull-request-tutorial/)
+6. Wait till I review your tests and code. I'll either:
   a. Deny the request and ask you to perform some changes
   b. Accept the request, finishing off the process
 
