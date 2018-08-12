@@ -115,5 +115,15 @@ class TestCalculator(unittest.TestCase):
         self.assertTrue(math.isclose(self.calculator.log(10,10), 1))
         self.assertTrue(math.isclose(self.calculator.log(100, 10), 2))
 
+    def test_cube(self):
+        """Tests the square root function for every combination of 1, 0 and -1.
+        May be redundant but checks if communitive property is respected.
+        """
+
+        # Where x = 1, 0, -1
+        self.assertEqual(self.calculator.cube(1), 1)
+        self.assertEqual(self.calcalculator.cube(0), 0)
+        self.assertEqual(self.calculator.cube(-1), -1)
+
 if __name__ == '__main__':
     unittest.main()
