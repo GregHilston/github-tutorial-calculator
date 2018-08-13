@@ -122,7 +122,7 @@ class TestCalculator(unittest.TestCase):
 
         # Where x = 1, 0, -1
         self.assertEqual(self.calculator.cube(1), 1)
-        self.assertEqual(self.calcalculator.cube(0), 0)
+        self.assertEqual(self.calculator.cube(0), 0)
         self.assertEqual(self.calculator.cube(-1), -1)
 
 if __name__ == '__main__':

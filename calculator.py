@@ -48,7 +48,7 @@ class Calculator:
 
         return (x * x)
     
-    def cube(self, x)
+    def cube(self, x):
         """Returns the cubed value of x.
         """
     
