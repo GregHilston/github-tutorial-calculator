@@ -91,7 +91,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calculator.divide(-1, -1), 1)
 
     def test_tan(self):
-        """Tests the subtract function for every combination of 1, 0 and -1.
+        """Tests the tangent function for combinations of 0, -3, 3 and 1.
         May be redundant but checks if communitive property is respected.
         """
 
@@ -99,6 +99,16 @@ class TestCalculator(unittest.TestCase):
         self.assertTrue(math.isclose(self.calculator.tan(-3), 0.142546543074))
         self.assertTrue(math.isclose(self.calculator.tan(3), -0.142546543074))
         self.assertTrue(math.isclose(self.calculator.tan(math.pi/4), 1))
+        
+    def test_sin(self):
+        """Tests the sine method in a combination of 1, 0, -1 and 1 through pi.
+        May be redundant but checks if communitive property is respected.
+        """
+
+        self.assertTrue(math.isclose(self.calculator.sin(0), 0))
+        self.assertTrue(math.isclose(self.calculator.sin(1), 0.841470984807897))
+        self.assertTrue(math.isclose(self.calculator.sin(-1), -0.841470984807897))
+        self.assertTrue(math.isclose(self.calculator.sin(math.pi/2), 1))
 
     def test_square(self):
         """Tests the square function for every combination of 1, 0 and -1.
