@@ -21,22 +21,26 @@ class Calculator:
         """Multiples x by y and returns the product
         """
 
-
         return (x * y)
-
 
     def divide(self, x, y):
         """Divides x by y and returns the quotient.
         Note, that this uses Integer division.
         """
+        
         return x//y
-
 
     def tan(self, x):
         """Returns the tangent value of x
         """
 
         return math.tan(x)
+    
+    def sin(self, x):
+        """Returns the sine of value of x
+        """
+        
+        return math.sin(x)
 
     def log(self, x, y):
 
