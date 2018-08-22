@@ -21,7 +21,6 @@ class Calculator:
         """Multiples x by y and returns the product
         """
 
-
         return (x * y)
 
 
@@ -37,6 +36,13 @@ class Calculator:
         """
 
         return math.tan(x)
+
+    def sin(self, xInRadians):
+        """Returns the sine value of xInRadians reflected in radians
+        not degrees
+        """
+
+        return math.sin(xInRadians)
 
     def log(self, x, y):
 
