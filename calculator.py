@@ -37,11 +37,12 @@ class Calculator:
 
         return math.tan(x)
 
-    def sin(self, x):
-        """Returns the sine value of x
+    def sin(self, xInRadians):
+        """Returns the sine value of x reflected in radians
+        not degrees
         """
 
-        return math.sin(x)
+        return math.sin(xInRadians)
 
     def log(self, x, y):
 
