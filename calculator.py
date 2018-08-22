@@ -38,7 +38,7 @@ class Calculator:
         return math.tan(x)
 
     def sin(self, xInRadians):
-        """Returns the sine value of x reflected in radians
+        """Returns the sine value of xInRadians reflected in radians
         not degrees
         """
 
